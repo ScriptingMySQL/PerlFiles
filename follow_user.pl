@@ -37,8 +37,6 @@ print "\n$query\n\n";
 
 $count_users = 1;
 
-# 107 following 114 followers
-
 # loop through our results - one tweet at a time
 while (@data = $sth->fetchrow_array()) {
 
