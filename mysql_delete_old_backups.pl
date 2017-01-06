@@ -68,7 +68,7 @@ foreach my $filename (@files2) {
 			{
 				if ($print_output eq "yes") { print "| $count of $total_files_available |  Deleting: $filename\n"; }
 				# uncomment to delete the backup
-				#$f->delete($filename);
+				$f->delete($filename);
 			}
 		
 			else
